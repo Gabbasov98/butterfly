@@ -1,18 +1,19 @@
 function sliderFeedback() {
     var swiper = new Swiper('.feedback .swiper-container', {
-        slidesPerView: 'auto',
-        spaceBetween: 1,
+        slidesPerView: 3,
+        centeredSlidesBounds: false,
+        spaceBetween: 0,
         navigation: {
             nextEl: '.feedback .swiper-button-next',
             prevEl: '.feedback .swiper-button-prev',
         },
         breakpoints: {
             320: {
-                slidesPerView: 1,
+                slidesPerView: 3,
                 spaceBetween: 0
             },
             480: {
-                slidesPerView: 1,
+                // slidesPerView: 3,
                 spaceBetween: 0
             },
 

@@ -47,7 +47,7 @@
             <div class='main__inner'>
                 <h1 class="main__title">ПОПРОБУЙ СО МНОЙ ВЫУЧИТЬ ДВИЖЕНИЕ руками </h1>
                 <div class="main__subtitle">«бабочка»</div>
-                <button class="main__btn">
+                <button class="main__btn" data-toggle="modal" data-target="#modal">
                     <svg width="134" height="134" viewBox="0 0 134 134" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M134 67C134 84.7695 126.941 101.811 114.376 114.376C101.811 126.941 84.7695 134 67 134C49.2305 134 32.1888 126.941 19.6238 114.376C7.05891 101.811 0 84.7695 0 67C0 49.2305 7.05891 32.1888 19.6238 19.6238C32.1888 7.05891 49.2305 0 67 0C84.7695 0 101.811 7.05891 114.376 19.6238C126.941 32.1888 134 49.2305 134 67ZM56.8662 42.6539C56.2401 42.2081 55.5033 41.9432 54.7367 41.8883C53.97 41.8334 53.203 41.9905 52.5197 42.3426C51.8364 42.6946 51.2632 43.2279 50.8628 43.884C50.4625 44.5402 50.2505 45.2939 50.25 46.0625V87.9375C50.2505 88.7061 50.4625 89.4598 50.8628 90.116C51.2632 90.7721 51.8364 91.3054 52.5197 91.6574C53.203 92.0095 53.97 92.1666 54.7367 92.1117C55.5033 92.0568 56.2401 91.7919 56.8662 91.3461L86.1787 70.4086C86.7216 70.0213 87.164 69.5099 87.4693 68.917C87.7746 68.3241 87.9339 67.6669 87.9339 67C87.9339 66.3331 87.7746 65.6759 87.4693 65.083C87.164 64.4901 86.7216 63.9787 86.1787 63.5914L56.8662 42.6539Z" fill="#E196E3"/>
                     </svg>
@@ -334,54 +334,32 @@
                         <div class='swiper-wrapper'>
                             <div class='swiper-slide'>
                                 <div class="feedback__slider-item">
-                                    <div class="feedback__slider-item-left">
-                                        <img src="img/slider1.jpg" alt="">
-                                    </div>
-                                    <div class="feedback__slider-item-center">
-                                        <img src="img/slider3.jpg" alt="">
-                                    </div>
-                                    <div class="feedback__slider-item-right">
-                                        <img src="img/slider2.jpg" alt="">
-                                    </div>
+                                    <img src="img/slider1.jpg" alt="" data-toggle="modal" data-target="#modal">
                                 </div>
                             </div>
                             <div class='swiper-slide'>
                                 <div class="feedback__slider-item">
-                                    <div class="feedback__slider-item-left">
-                                        <img src="img/slider1.jpg" alt="">
-                                    </div>
-                                    <div class="feedback__slider-item-center">
-                                        <img src="img/slider3.jpg" alt="">
-                                    </div>
-                                    <div class="feedback__slider-item-right">
-                                        <img src="img/slider2.jpg" alt="">
-                                    </div>
+                                    <img src="img/slider3.jpg" alt="" data-toggle="modal" data-target="#modal">
                                 </div>
                             </div>
                             <div class='swiper-slide'>
                                 <div class="feedback__slider-item">
-                                    <div class="feedback__slider-item-left">
-                                        <img src="img/slider1.jpg" alt="">
-                                    </div>
-                                    <div class="feedback__slider-item-center">
-                                        <img src="img/slider3.jpg" alt="">
-                                    </div>
-                                    <div class="feedback__slider-item-right">
-                                        <img src="img/slider2.jpg" alt="">
-                                    </div>
+                                    <img src="img/slider2.jpg" alt="" data-toggle="modal" data-target="#modal">
                                 </div>
                             </div>
                             <div class='swiper-slide'>
                                 <div class="feedback__slider-item">
-                                    <div class="feedback__slider-item-left">
-                                        <img src="img/slider1.jpg" alt="">
-                                    </div>
-                                    <div class="feedback__slider-item-center">
-                                        <img src="img/slider3.jpg" alt="">
-                                    </div>
-                                    <div class="feedback__slider-item-right">
-                                        <img src="img/slider2.jpg" alt="">
-                                    </div>
+                                    <img src="img/slider1.jpg" alt="" data-toggle="modal" data-target="#modal">
+                                </div>
+                            </div>
+                            <div class='swiper-slide'>
+                                <div class="feedback__slider-item">
+                                    <img src="img/slider3.jpg" alt="" data-toggle="modal" data-target="#modal">
+                                </div>
+                            </div>
+                            <div class='swiper-slide'>
+                                <div class="feedback__slider-item">
+                                    <img src="img/slider2.jpg" alt="" data-toggle="modal" data-target="#modal">
                                 </div>
                             </div>
                         </div>
@@ -467,12 +445,12 @@
     </footer>
 
 
-    <div id='myModal' class='modal fade' role='dialog'>
+    <div id='modal' class='modal fade' role='dialog'>
         <div class='modal-dialog'>
             <button type='button' class='close' data-dismiss='modal'>&times;</button>
             <div class='modal_content'>
                 <div class="modal__video">
-
+                    <iframe width="850" height="480" src="https://www.youtube.com/embed/OBVpiyTL25E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
