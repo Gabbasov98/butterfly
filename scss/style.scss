@@ -312,16 +312,13 @@
     }
     &__item {
         width: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
         background: #F4D3EE;
         border-radius: 35px;
         padding: 7px 17px 30px 7px;
         position: relative;
         z-index: 2;
         &-block {
-            height: 245px;
+            // height: 245px;
             width: 375px;
             position: relative;
         }
@@ -572,6 +569,15 @@
             &:hover {
                 background: #E5BEF2;
             }
+        }
+        &-hint {
+            font-weight: bold;
+            font-size: 22px;
+            line-height: 35px;
+            text-transform: lowercase;
+            margin-top: 25px;
+            color: #C967D1;
+            padding-left: 20px;
         }
     }
 }
@@ -977,7 +983,7 @@
     .desc {
         padding: 50px 0 25px;
         &__bg {
-            width: 1000px;
+            width: 100%;
         }
         &__title {
             font-size: 16px;
@@ -1076,7 +1082,7 @@
     }
     .modules {
         &__bg {
-            width: 1000px;
+            width: 100%;
         }
         &__title {
             font-size: 16px;
@@ -1228,7 +1234,7 @@
             padding: 0 60px;
         }
         &__bg {
-            width: 1000px;
+            width: 100%;
         }
     }
 }
@@ -1284,13 +1290,11 @@
     }
     .desc {
         &__bg {
-            width: 800px;
             top: 90%;
         }
     }
     .modules {
         &__bg {
-            width: 800px;
             top: 90%;
         }
     }

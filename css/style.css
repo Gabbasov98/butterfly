@@ -79,10 +79,11 @@ path {
 body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  min-height: 100%;
   color: #4B4B4B;
   overflow-x: hidden;
-  padding-top: 106px; }
+  padding-top: 106px;
+  background: #000;
+  width: 100%; }
 
 h1,
 h2,
@@ -386,16 +387,12 @@ i {
     margin-top: 140px; }
   .modules__item {
     width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
     background: #F4D3EE;
     border-radius: 35px;
     padding: 7px 17px 30px 7px;
     position: relative;
     z-index: 2; }
     .modules__item-block {
-      height: 245px;
       width: 375px;
       position: relative; }
     .modules__item-inner {
@@ -601,6 +598,14 @@ i {
       color: #FFFFFF; }
       .tarif__item-btn:hover {
         background: #E5BEF2; }
+    .tarif__item-hint {
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 35px;
+      text-transform: lowercase;
+      margin-top: 25px;
+      color: #C967D1;
+      padding-left: 20px; }
 
 .author {
   padding: 40px 0 45px;
@@ -905,7 +910,7 @@ i {
   .desc {
     padding: 50px 0 25px; }
     .desc__bg {
-      width: 1000px; }
+      width: 100%; }
     .desc__title {
       font-size: 16px;
       line-height: 35px;
@@ -982,7 +987,7 @@ i {
       padding: 0; }
 
   .modules__bg {
-    width: 1000px; }
+    width: 100%; }
   .modules__title {
     font-size: 16px;
     line-height: 35px;
@@ -1094,7 +1099,7 @@ i {
   .footer__contacts {
     padding: 0 60px; }
   .footer__bg {
-    width: 1000px; } }
+    width: 100%; } }
 @media screen and (max-width: 768px) {
   body {
     padding-top: 102px; }
@@ -1135,11 +1140,9 @@ i {
       bottom: 75px; }
 
   .desc__bg {
-    width: 800px;
     top: 90%; }
 
   .modules__bg {
-    width: 800px;
     top: 90%; }
 
   .feedback__slider-item {
